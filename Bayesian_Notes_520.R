@@ -23,12 +23,13 @@ BBB<-function(n,p,alpha,beta)
  
 }
 
-n<-1
+n<-10
 p<-0.3
-alpha<-1
-beta<-1
+alpha<-2
+beta<-2
 
 BBB(n,p,alpha,beta)
+
 #Inference for Normal with Normal Prior
 BNN<-function(n,mu,sigma,theta,tau)
 {
