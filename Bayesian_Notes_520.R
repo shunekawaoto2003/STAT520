@@ -23,10 +23,10 @@ BBB<-function(n,p,alpha,beta)
  
 }
 
-n<-1
-p<-0.3
-alpha<-1
-beta<-1
+n<-10
+p<-3
+alpha<-10
+beta<-10
 
 BBB(n,p,alpha,beta)
 #Inference for Normal with Normal Prior
